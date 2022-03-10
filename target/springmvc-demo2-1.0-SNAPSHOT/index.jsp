@@ -17,5 +17,15 @@
 <a href="user/test">test</a>
 <br/>
 <a href="param/testParam?username=hhh">请求参数转发</a>
+<br/>
+<h3>表单数据</h3>
+<form action="param/saveAccount" method="post">
+    姓名：<input type="text" name="username"/><br/>
+    密码：<input type="text" name="password"/><br/>
+    金额：<input type="text" name="money"/><br/>
+    用户姓名：<input type="text" name="user.uname"/><br/>
+    用户年龄：<input type="text" name="user.age"/><br/>
+    <input type="submit" value="提交">
+</form>
 </body>
 </html>
