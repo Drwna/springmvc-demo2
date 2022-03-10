@@ -10,6 +10,14 @@ public class User implements Serializable {
         return uname;
     }
 
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
     public void setUname(String uname) {
         this.uname = uname;
     }
