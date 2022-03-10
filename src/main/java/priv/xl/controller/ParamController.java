@@ -12,8 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ParamController {
 
     @RequestMapping("testParam")
-    public String testParam() {
+    public String testParam(String username) {
         System.out.println("执行了。。。");
+        System.out.println("用户名" + username);
         return "success";
     }
 

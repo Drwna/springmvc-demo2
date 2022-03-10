@@ -16,6 +16,6 @@
 <br/>
 <a href="user/test">test</a>
 <br/>
-<a href="param/testParam">请求参数转发</a>
+<a href="param/testParam?username=hhh">请求参数转发</a>
 </body>
 </html>
